@@ -298,15 +298,15 @@ navigating to a different directory.
 
 **Tab Completion**
 
-Navigate to the home directory. Typing out directory names can waste a
+Navigate to the home directory (.../2013-09-04-uiowa). Typing out directory names can waste a
 lot of time. When you start typing out the name of a directory, then
 hit the tab key, the shell will try to fill in the rest of the
 directory name. For example, enter:
 
-    cd S<tab>
+    cd d<tab>
 
 The shell will fill in the rest of the directory name for
-`boot-camps`. Now enter:
+`day1.shell`. Now enter:
 
     ls ~/2013-09-04-uiowa/day1.shell/e<tab><tab>
 
@@ -317,7 +317,7 @@ tab again, the shell will list the possible choices.
 
 Tab completion can also fill in the names of programs. For example,
 enter `e<tab><tab>`. You will see the name of every program that
-starts with an `e`. One of those is `echo`. If you enter `ec<tab>` you
+starts with an `e`. One of those is the directory `exercises`. If you enter `exe<tab>` you
 will see that tab completion works.
 
 **Command History**
@@ -445,15 +445,6 @@ beginning of the file and search.
 
 Remember, the `man` program uses the same commands, so you can search
 documentation using "/" as well!
-
-* * * *
-**Short Exercise**
-
-Use the commands we've learned so far to figure out how to search
-in reverse while using `less`.
-
-* * * * 
-
 
 ## Redirection
 
@@ -609,32 +600,7 @@ command:
     wc Bert/* gerdal/Data0559 | tail -n 1
 
 This will print only the total number of lines, characters, and words
-across all of these files. What is happening here? Well, `tail`, like
-many command line programs will read from the *standard input* when it
-is not given any files to operate on. In this case, it will just sit
-there waiting for input. That input can come from the user's keyboard
-*or from another program*. Try this:
-
-    tail -n 2
-
-Notice that your cursor just sits there blinking. Tail is waiting for
-data to come in. Now type:
-
-    French
-    fries
-    are
-    good
-
-then CONTROL+d. You should is the lines:
-
-    are
-    good
-
-printed back at you. The CONTROL+d keyboard shortcut inserts an
-*end-of-file* character. It is sort of the standard way of telling the
-program "I'm done entering data". The `|` character is replaces the
-data from the keyboard with data from another command. You can string
-all sorts of commands together using the pipe. 
+across all of these files. 
 
 The philosophy behind these command line programs is that none of them
 really do anything all that impressive. BUT when you start chaining
@@ -693,14 +659,6 @@ are two options given to sort:
 2.  `-n`: Sort in numerical order as opposed to alphabetical order
 
 Notice that the files are sorted by the number of characters.
-
-* * * *
-**Short Exercise**
-
-Use the `man` command to find out how to sort the output from `wc` in
-reverse order.
-
-* * * *
 
 * * * * 
 **Short Exercise**
