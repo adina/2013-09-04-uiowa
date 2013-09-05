@@ -4,6 +4,10 @@
 
 **Modified by Adina Howe**
 
+A good cheatsheet but there are many out there
+
+https://etherpad.mozilla.org/nnei7LzzHL
+
 # What is the shell how do I access the shell?
 
 The *shell* is a program that presents a command line interface
