@@ -6,7 +6,7 @@
 
 A good cheatsheet but there are many out there
 
-https://etherpad.mozilla.org/nnei7LzzHL
+http://chembytes.wdfiles.com/local--files/cheatsheets/linux4beginner.pdf
 
 # What is the shell how do I access the shell?
 
