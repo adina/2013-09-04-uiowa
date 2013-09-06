@@ -1,7 +1,7 @@
 2013-09-04-uiowa
 ================
 Jory's email:
-joryschossau@gmail.com
+jory@msu.edu
 
 
 Shell Etherpad
